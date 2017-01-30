@@ -47,7 +47,10 @@
 				BA5DA37D1E3FE85A008BE328 /* CatNap */,
 				BA5DA37C1E3FE85A008BE328 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 1;
 		};
 		BA5DA37C1E3FE85A008BE328 /* Products */ = {
 			isa = PBXGroup;
