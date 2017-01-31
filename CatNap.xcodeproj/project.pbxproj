@@ -15,6 +15,11 @@
 		BA5DA38A1E3FE85A008BE328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3881E3FE85A008BE328 /* Main.storyboard */; };
 		BA5DA38C1E3FE85A008BE328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA38B1E3FE85A008BE328 /* Assets.xcassets */; };
 		BA5DA38F1E3FE85A008BE328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA38D1E3FE85A008BE328 /* LaunchScreen.storyboard */; };
+		BA5DA39C1E413575008BE328 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3971E413575008BE328 /* backgroundMusic.mp3 */; };
+		BA5DA39D1E413575008BE328 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3981E413575008BE328 /* lose.mp3 */; };
+		BA5DA39E1E413575008BE328 /* mrreow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3991E413575008BE328 /* mrreow.mp3 */; };
+		BA5DA39F1E413575008BE328 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA39A1E413575008BE328 /* pop.mp3 */; };
+		BA5DA3A01E413575008BE328 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA39B1E413575008BE328 /* win.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		BA5DA38B1E3FE85A008BE328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA5DA38E1E3FE85A008BE328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA5DA3901E3FE85A008BE328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5DA3971E413575008BE328 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		BA5DA3981E413575008BE328 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		BA5DA3991E413575008BE328 /* mrreow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mrreow.mp3; sourceTree = "<group>"; };
+		BA5DA39A1E413575008BE328 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		BA5DA39B1E413575008BE328 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 		BA5DA37D1E3FE85A008BE328 /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
+				BA5DA3961E413575008BE328 /* Sounds */,
 				BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */,
 				BA5DA3801E3FE85A008BE328 /* GameScene.sks */,
 				BA5DA3821E3FE85A008BE328 /* Actions.sks */,
@@ -74,6 +85,18 @@
 				BA5DA3901E3FE85A008BE328 /* Info.plist */,
 			);
 			path = CatNap;
+			sourceTree = "<group>";
+		};
+		BA5DA3961E413575008BE328 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DA3971E413575008BE328 /* backgroundMusic.mp3 */,
+				BA5DA3981E413575008BE328 /* lose.mp3 */,
+				BA5DA3991E413575008BE328 /* mrreow.mp3 */,
+				BA5DA39A1E413575008BE328 /* pop.mp3 */,
+				BA5DA39B1E413575008BE328 /* win.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			files = (
 				BA5DA38A1E3FE85A008BE328 /* Main.storyboard in Resources */,
 				BA5DA3811E3FE85A008BE328 /* GameScene.sks in Resources */,
+				BA5DA39C1E413575008BE328 /* backgroundMusic.mp3 in Resources */,
+				BA5DA39F1E413575008BE328 /* pop.mp3 in Resources */,
 				BA5DA38C1E3FE85A008BE328 /* Assets.xcassets in Resources */,
+				BA5DA3A01E413575008BE328 /* win.mp3 in Resources */,
+				BA5DA39E1E413575008BE328 /* mrreow.mp3 in Resources */,
+				BA5DA39D1E413575008BE328 /* lose.mp3 in Resources */,
 				BA5DA38F1E3FE85A008BE328 /* LaunchScreen.storyboard in Resources */,
 				BA5DA3831E3FE85A008BE328 /* Actions.sks in Resources */,
 			);
@@ -319,6 +347,7 @@
 				BA5DA3951E3FE85A008BE328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
