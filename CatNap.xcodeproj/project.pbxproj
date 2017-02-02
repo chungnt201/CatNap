@@ -22,6 +22,7 @@
 		BA5DA3A01E413575008BE328 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA39B1E413575008BE328 /* win.mp3 */; };
 		BA5DA3A31E4140C4008BE328 /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3A21E4140C4008BE328 /* Cat.sks */; };
 		BA5DA3A51E43D5A2008BE328 /* CatCurl.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3A41E43D5A2008BE328 /* CatCurl.sks */; };
+		BAF35E201E43D7A90087E64E /* CatWakeUp.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAF35E1F1E43D7A90087E64E /* CatWakeUp.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BA5DA39B1E413575008BE328 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		BA5DA3A21E4140C4008BE328 /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
 		BA5DA3A41E43D5A2008BE328 /* CatCurl.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatCurl.sks; sourceTree = "<group>"; };
+		BAF35E1F1E43D7A90087E64E /* CatWakeUp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatWakeUp.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				BA5DA3801E3FE85A008BE328 /* GameScene.sks */,
 				BA5DA3A21E4140C4008BE328 /* Cat.sks */,
 				BA5DA3A41E43D5A2008BE328 /* CatCurl.sks */,
+				BAF35E1F1E43D7A90087E64E /* CatWakeUp.sks */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				BA5DA3811E3FE85A008BE328 /* GameScene.sks in Resources */,
 				BA5DA39C1E413575008BE328 /* backgroundMusic.mp3 in Resources */,
 				BA5DA39F1E413575008BE328 /* pop.mp3 in Resources */,
+				BAF35E201E43D7A90087E64E /* CatWakeUp.sks in Resources */,
 				BA5DA3A51E43D5A2008BE328 /* CatCurl.sks in Resources */,
 				BA5DA38C1E3FE85A008BE328 /* Assets.xcassets in Resources */,
 				BA5DA3A01E413575008BE328 /* win.mp3 in Resources */,
