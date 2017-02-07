@@ -38,6 +38,7 @@
 		BAF35E3C1E4A2A8C0087E64E /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E301E4A2A8C0087E64E /* SKTTimingFunctions.swift */; };
 		BAF35E3D1E4A2A8C0087E64E /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E311E4A2A8C0087E64E /* Vector3.swift */; };
 		BAF35E3F1E4A2FC60087E64E /* BlockNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */; };
+		BAF35E411E4A80CA0087E64E /* MessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E401E4A80CA0087E64E /* MessageNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		BAF35E301E4A2A8C0087E64E /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		BAF35E311E4A2A8C0087E64E /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
 		BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockNode.swift; sourceTree = "<group>"; };
+		BAF35E401E4A80CA0087E64E /* MessageNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */,
 				BA5DA3821E3FE85A008BE328 /* Actions.sks */,
 				BA5DA3841E3FE85A008BE328 /* GameScene.swift */,
+				BAF35E401E4A80CA0087E64E /* MessageNode.swift */,
 				BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */,
 				BAF35E211E49719F0087E64E /* BedNode.swift */,
 				BAF35E231E4974EB0087E64E /* CatNode.swift */,
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF35E331E4A2A8C0087E64E /* CGPoint+Extensions.swift in Sources */,
+				BAF35E411E4A80CA0087E64E /* MessageNode.swift in Sources */,
 				BAF35E3B1E4A2A8C0087E64E /* SKTEffects.swift in Sources */,
 				BAF35E361E4A2A8C0087E64E /* SKAction+Extensions.swift in Sources */,
 				BA5DA3851E3FE85A008BE328 /* GameScene.swift in Sources */,
