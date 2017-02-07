@@ -14,7 +14,10 @@ class CatNode: SKSpriteNode, EventListnerNode {
 		print("cat added to scene")
 		
 		let catBodyTexture = SKTexture(imageNamed: "cat_body_outline")
+		
 		parent!.physicsBody = SKPhysicsBody(texture: catBodyTexture,
 		                                    size: catBodyTexture.size())
+		parent!.physicsBody!.categoryBitMask = PhysicsCategory.Cat
+		parent!.physicsBody!.collisionBitMask = PhysicsCategory.Block | PhysicsCategory.Edge
 	}
 }

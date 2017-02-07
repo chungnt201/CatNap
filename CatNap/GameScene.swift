@@ -13,12 +13,28 @@ protocol EventListnerNode {
 	func didMoveToScene()
 }
 
-class GameScene: SKScene {
+protocol InteractiveNode {
+	func interact()
+}
+
+struct PhysicsCategory {
+	static let None: UInt32 = 0
+	static let Cat: UInt32 = 0b1
+	static let Block: UInt32 = 0b10
+	static let Bed: UInt32 = 0b100
+	static let Edge: UInt32 = 0b1000
+}
+
+class GameScene: SKScene, SKPhysicsContactDelegate {
 	
 	var bedNode: BedNode!
 	var catNode: CatNode!
     
 	override func didMove(to view: SKView) {
+		
+		SKTAudio.sharedInstance()
+			.playBackgroundMusic("backgroundMusic.mp3")
+		
 		// Calculate playable margin
 		
 		let maxAspectRatio: CGFloat = 16.0/9.0
@@ -28,6 +44,8 @@ class GameScene: SKScene {
 		                          width: size.width, height: size.height - playableMargin*2)
 		
 		physicsBody = SKPhysicsBody(edgeLoopFrom: playableRect)
+		physicsWorld.contactDelegate = self
+		physicsBody!.categoryBitMask = PhysicsCategory.Edge
 		
 		enumerateChildNodes(withName: "//*", using: { node, _ in
 			if let eventListnerNode = node as? EventListnerNode {

@@ -37,6 +37,7 @@
 		BAF35E3B1E4A2A8C0087E64E /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E2F1E4A2A8C0087E64E /* SKTEffects.swift */; };
 		BAF35E3C1E4A2A8C0087E64E /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E301E4A2A8C0087E64E /* SKTTimingFunctions.swift */; };
 		BAF35E3D1E4A2A8C0087E64E /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E311E4A2A8C0087E64E /* Vector3.swift */; };
+		BAF35E3F1E4A2FC60087E64E /* BlockNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		BAF35E2F1E4A2A8C0087E64E /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
 		BAF35E301E4A2A8C0087E64E /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		BAF35E311E4A2A8C0087E64E /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */,
 				BA5DA3821E3FE85A008BE328 /* Actions.sks */,
 				BA5DA3841E3FE85A008BE328 /* GameScene.swift */,
+				BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */,
 				BAF35E211E49719F0087E64E /* BedNode.swift */,
 				BAF35E231E4974EB0087E64E /* CatNode.swift */,
 				BA5DA3861E3FE85A008BE328 /* GameViewController.swift */,
@@ -258,6 +261,7 @@
 				BAF35E3C1E4A2A8C0087E64E /* SKTTimingFunctions.swift in Sources */,
 				BAF35E371E4A2A8C0087E64E /* SKAction+SpecialEffects.swift in Sources */,
 				BAF35E351E4A2A8C0087E64E /* Int+Extensions.swift in Sources */,
+				BAF35E3F1E4A2FC60087E64E /* BlockNode.swift in Sources */,
 				BAF35E3D1E4A2A8C0087E64E /* Vector3.swift in Sources */,
 				BAF35E221E49719F0087E64E /* BedNode.swift in Sources */,
 				BAF35E381E4A2A8C0087E64E /* SKColor+Extensions.swift in Sources */,
