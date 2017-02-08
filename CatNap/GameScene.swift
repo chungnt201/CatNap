@@ -63,15 +63,26 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	}
 	
 	func didBegin(_ contact: SKPhysicsContact) {
+		
+		let collision = contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask
+		
+		if collision == PhysicsCategory.Label | PhysicsCategory.Edge {
+			let labelNode = contact.bodyA.categoryBitMask == PhysicsCategory.Label ?
+			contact.bodyA.node :
+			contact.bodyB.node
+			
+			if let message = labelNode as? MessageNode {
+				message.didBounce()
+			}
+		}
+		
 		if !playable {
 			return
 		}
 		
-		let collision = contact.bodyA.categoryBitMask
-		| contact.bodyB.categoryBitMask
-		
 		if collision == PhysicsCategory.Cat | PhysicsCategory.Bed {
 			print("SUCCESS")
+			win()
 		} else if collision == PhysicsCategory.Cat
 			| PhysicsCategory.Edge {
 			print("FAIL")
@@ -102,6 +113,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		catNode.wakeUp()
 	}
 	
+	func win() {
+		playable = false
+		
+		SKTAudio.sharedInstance().pauseBackgroundMusic()
+		SKTAudio.sharedInstance().playSoundEffect("win.mp3")
+		
+		inGameMessage(text: "Nice job!")
+		
+		perform(#selector(GameScene.newGame), with: nil, afterDelay: 3)
+		catNode.curlAt(scenePoint: bedNode.position)
+	}
 	
 	
 	
