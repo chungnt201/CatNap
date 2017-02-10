@@ -31,6 +31,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	var bedNode: BedNode!
 	var catNode: CatNode!
 	var playable = true
+	var currentLevel: Int = 0
+	
+	class func level(levelNum: Int) -> GameScene? {
+		let scene = GameScene(fileNamed: "Level\(levelNum)")!
+		scene.currentLevel = levelNum
+		scene.scaleMode = .aspectFill
+		return scene
+	}
     
 	override func didMove(to view: SKView) {
 		
@@ -90,6 +98,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		}
 	}
 	
+	override func didSimulatePhysics() {
+		if playable {
+			if fabs(catNode.parent!.zRotation) >
+				CGFloat(25).degreesToRadians() {
+					lose()
+			}
+		}
+	}
+	
 	func inGameMessage(text: String) {
 		let message = MessageNode(message: text)
 		message.position = CGPoint(x: frame.midX, y: frame.midY)
@@ -99,7 +116,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	func newGame() {
 		let scene = GameScene(fileNamed: "GameScene")
 		scene!.scaleMode = scaleMode
-		view!.presentScene(scene)
+		view!.presentScene(GameScene.level(levelNum: currentLevel))
 	}
 	
 	func lose() {

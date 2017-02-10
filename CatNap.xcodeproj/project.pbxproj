@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA5DA37F1E3FE85A008BE328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */; };
-		BA5DA3811E3FE85A008BE328 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3801E3FE85A008BE328 /* GameScene.sks */; };
+		BA5DA3811E3FE85A008BE328 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3801E3FE85A008BE328 /* Level1.sks */; };
 		BA5DA3831E3FE85A008BE328 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3821E3FE85A008BE328 /* Actions.sks */; };
 		BA5DA3851E3FE85A008BE328 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DA3841E3FE85A008BE328 /* GameScene.swift */; };
 		BA5DA3871E3FE85A008BE328 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DA3861E3FE85A008BE328 /* GameViewController.swift */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		BA5DA37B1E3FE85A008BE328 /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA5DA3801E3FE85A008BE328 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BA5DA3801E3FE85A008BE328 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
 		BA5DA3821E3FE85A008BE328 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		BA5DA3841E3FE85A008BE328 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BA5DA3861E3FE85A008BE328 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		BA5DA3A11E41405D008BE328 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				BA5DA3801E3FE85A008BE328 /* GameScene.sks */,
+				BA5DA3801E3FE85A008BE328 /* Level1.sks */,
 				BA5DA3A21E4140C4008BE328 /* Cat.sks */,
 				BA5DA3A41E43D5A2008BE328 /* CatCurl.sks */,
 				BAF35E1F1E43D7A90087E64E /* CatWakeUp.sks */,
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA5DA38A1E3FE85A008BE328 /* Main.storyboard in Resources */,
-				BA5DA3811E3FE85A008BE328 /* GameScene.sks in Resources */,
+				BA5DA3811E3FE85A008BE328 /* Level1.sks in Resources */,
 				BA5DA39C1E413575008BE328 /* backgroundMusic.mp3 in Resources */,
 				BA5DA39F1E413575008BE328 /* pop.mp3 in Resources */,
 				BAF35E201E43D7A90087E64E /* CatWakeUp.sks in Resources */,
