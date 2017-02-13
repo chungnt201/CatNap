@@ -43,5 +43,11 @@ class HookBaseNode: SKSpriteNode, EventListnerNode {
 		let ropeJoint = SKPhysicsJointSpring.joint(withBodyA: physicsBody!, bodyB: hookNode.physicsBody!,
 		                                            anchorA: position, anchorB: hookPosition)
 		scene.physicsWorld.add(ropeJoint)
+		
+		let range = SKRange(lowerLimit: 0.0, upperLimit: 0.0)
+		let orientConstraint = SKConstraint.orient(to: hookNode, offset: range)
+		ropeNode.constraints = [orientConstraint]
+		
+		hookNode.physicsBody!.applyImpulse(CGVector(dx: 50, dy: 0))
 	}
 }

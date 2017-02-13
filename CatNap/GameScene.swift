@@ -68,8 +68,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		bedNode = childNode(withName: "bed") as! BedNode
 		catNode = childNode(withName: "//cat_body") as! CatNode
 		
-//		bedNode.setScale(1.5)
-//		catNode.setScale(1.5)
+//		let rotationConstraint = SKConstraint.zRotation(
+//			SKRange(lowerLimit: -π/4, upperLimit: π/4))
+//		catNode.parent!.constraints = [rotationConstraint]
+		
 	}
 	
 	func didBegin(_ contact: SKPhysicsContact) {
