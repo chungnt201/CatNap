@@ -11,6 +11,7 @@
 		BA29BE691E4E6E6B004564EA /* SpringNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29BE681E4E6E6B004564EA /* SpringNode.swift */; };
 		BA29BE6B1E4E76D0004564EA /* HookBaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29BE6A1E4E76D0004564EA /* HookBaseNode.swift */; };
 		BA29BE6D1E5260F1004564EA /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA29BE6C1E5260F1004564EA /* Level3.sks */; };
+		BA29BE6F1E527689004564EA /* StoneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29BE6E1E527689004564EA /* StoneNode.swift */; };
 		BA5DA37F1E3FE85A008BE328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */; };
 		BA5DA3811E3FE85A008BE328 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3801E3FE85A008BE328 /* Level1.sks */; };
 		BA5DA3831E3FE85A008BE328 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3821E3FE85A008BE328 /* Actions.sks */; };
@@ -50,6 +51,7 @@
 		BA29BE681E4E6E6B004564EA /* SpringNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringNode.swift; sourceTree = "<group>"; };
 		BA29BE6A1E4E76D0004564EA /* HookBaseNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookBaseNode.swift; sourceTree = "<group>"; };
 		BA29BE6C1E5260F1004564EA /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
+		BA29BE6E1E527689004564EA /* StoneNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneNode.swift; sourceTree = "<group>"; };
 		BA5DA37B1E3FE85A008BE328 /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5DA3801E3FE85A008BE328 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */,
 				BA5DA3821E3FE85A008BE328 /* Actions.sks */,
 				BA5DA3841E3FE85A008BE328 /* GameScene.swift */,
+				BA29BE6E1E527689004564EA /* StoneNode.swift */,
 				BA29BE681E4E6E6B004564EA /* SpringNode.swift */,
 				BA29BE6A1E4E76D0004564EA /* HookBaseNode.swift */,
 				BAF35E401E4A80CA0087E64E /* MessageNode.swift */,
@@ -276,6 +279,7 @@
 				BA5DA3851E3FE85A008BE328 /* GameScene.swift in Sources */,
 				BAF35E391E4A2A8C0087E64E /* SKNode+Extensions.swift in Sources */,
 				BAF35E241E4974EB0087E64E /* CatNode.swift in Sources */,
+				BA29BE6F1E527689004564EA /* StoneNode.swift in Sources */,
 				BAF35E3C1E4A2A8C0087E64E /* SKTTimingFunctions.swift in Sources */,
 				BAF35E371E4A2A8C0087E64E /* SKAction+SpecialEffects.swift in Sources */,
 				BAF35E351E4A2A8C0087E64E /* Int+Extensions.swift in Sources */,
