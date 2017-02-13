@@ -10,6 +10,7 @@
 		BA29BE671E4E6BB7004564EA /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA29BE661E4E6BB7004564EA /* Level2.sks */; };
 		BA29BE691E4E6E6B004564EA /* SpringNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29BE681E4E6E6B004564EA /* SpringNode.swift */; };
 		BA29BE6B1E4E76D0004564EA /* HookBaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29BE6A1E4E76D0004564EA /* HookBaseNode.swift */; };
+		BA29BE6D1E5260F1004564EA /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA29BE6C1E5260F1004564EA /* Level3.sks */; };
 		BA5DA37F1E3FE85A008BE328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */; };
 		BA5DA3811E3FE85A008BE328 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3801E3FE85A008BE328 /* Level1.sks */; };
 		BA5DA3831E3FE85A008BE328 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3821E3FE85A008BE328 /* Actions.sks */; };
@@ -48,6 +49,7 @@
 		BA29BE661E4E6BB7004564EA /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
 		BA29BE681E4E6E6B004564EA /* SpringNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringNode.swift; sourceTree = "<group>"; };
 		BA29BE6A1E4E76D0004564EA /* HookBaseNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookBaseNode.swift; sourceTree = "<group>"; };
+		BA29BE6C1E5260F1004564EA /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
 		BA5DA37B1E3FE85A008BE328 /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5DA3801E3FE85A008BE328 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				BA5DA3801E3FE85A008BE328 /* Level1.sks */,
 				BA29BE661E4E6BB7004564EA /* Level2.sks */,
+				BA29BE6C1E5260F1004564EA /* Level3.sks */,
 				BA5DA3A21E4140C4008BE328 /* Cat.sks */,
 				BA5DA3A41E43D5A2008BE328 /* CatCurl.sks */,
 				BAF35E1F1E43D7A90087E64E /* CatWakeUp.sks */,
@@ -250,6 +253,7 @@
 				BA5DA3A51E43D5A2008BE328 /* CatCurl.sks in Resources */,
 				BA5DA38C1E3FE85A008BE328 /* Assets.xcassets in Resources */,
 				BA5DA3A01E413575008BE328 /* win.mp3 in Resources */,
+				BA29BE6D1E5260F1004564EA /* Level3.sks in Resources */,
 				BA5DA39E1E413575008BE328 /* mrreow.mp3 in Resources */,
 				BA5DA39D1E413575008BE328 /* lose.mp3 in Resources */,
 				BA5DA38F1E3FE85A008BE328 /* LaunchScreen.storyboard in Resources */,

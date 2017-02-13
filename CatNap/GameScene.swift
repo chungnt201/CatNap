@@ -34,6 +34,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	var catNode: CatNode!
 	var playable = true
 	var currentLevel: Int = 0
+	var hookBaseNode: HookBaseNode?
 	
 	class func level(levelNum: Int) -> GameScene? {
 		let scene = GameScene(fileNamed: "Level\(levelNum)")!
@@ -67,10 +68,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		
 		bedNode = childNode(withName: "bed") as! BedNode
 		catNode = childNode(withName: "//cat_body") as! CatNode
+		hookBaseNode = childNode(withName: "hookBase") as? HookBaseNode
 		
-//		let rotationConstraint = SKConstraint.zRotation(
-//			SKRange(lowerLimit: -π/4, upperLimit: π/4))
-//		catNode.parent!.constraints = [rotationConstraint]
+
 		
 	}
 	
@@ -100,10 +100,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 			print("FAIL")
 			lose()
 		}
+		
+		if collision == PhysicsCategory.Cat | PhysicsCategory.Hook
+			&& hookBaseNode?.isHooked == false {
+				hookBaseNode!.hookCat(catPhysicsBody: catNode.parent!.physicsBody!)
+		}
 	}
 	
 	override func didSimulatePhysics() {
-		if playable {
+		if playable && hookBaseNode?.isHooked != true {
 			if fabs(catNode.parent!.zRotation) >
 				CGFloat(25).degreesToRadians() {
 					lose()

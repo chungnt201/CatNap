@@ -8,7 +8,19 @@
 
 import SpriteKit
 
-class CatNode: SKSpriteNode, EventListnerNode {
+class CatNode: SKSpriteNode, EventListnerNode, InteractiveNode {
+	
+	static let kCatTappedNotification = "kCatTappedNotification"
+	
+	func interact() {
+		NotificationCenter.default.post(Notification(name: Notification.Name(CatNode.kCatTappedNotification),
+		                                             object: nil))
+	}
+	
+	override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+		super.touchesEnded(touches, with: event)
+		interact()
+	}
 	
 	func didMoveToScene() {
 		print("cat added to scene")
@@ -20,6 +32,8 @@ class CatNode: SKSpriteNode, EventListnerNode {
 		parent!.physicsBody!.categoryBitMask = PhysicsCategory.Cat
 		parent!.physicsBody!.collisionBitMask = PhysicsCategory.Block | PhysicsCategory.Edge | PhysicsCategory.Spring
 		parent!.physicsBody!.contactTestBitMask = PhysicsCategory.Bed | PhysicsCategory.Edge
+		
+		isUserInteractionEnabled = true
 	}
 	
 	func wakeUp() {
