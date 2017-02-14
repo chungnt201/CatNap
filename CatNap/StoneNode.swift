@@ -10,11 +10,28 @@ import SpriteKit
 
 class StoneNode: SKSpriteNode, EventListnerNode, InteractiveNode {
 	
+	func didMoveToScene() {
+		guard let scene = scene else {
+			return
+		}
+		
+		if parent == scene {
+			scene.addChild(StoneNode.makeCompoundNode(in: scene))
+		}
+	}
+	
+	func interact() {
+		isUserInteractionEnabled = false
+		run(SKAction.sequence([
+			SKAction.playSoundFileNamed("pop.mp3", waitForCompletion: false),
+			SKAction.removeFromParent()
+			]))
+	}
+	
 	static func makeCompoundNode(in scene: SKScene) -> SKNode {
 		let compound = StoneNode()
 		
-		for stone in scene.children.filter(
-				{ node in node is StoneNode}) {
+		for stone in scene.children.filter({ node in node is StoneNode}) {
 			stone.removeFromParent()
 			compound.addChild(stone)
 		}
@@ -23,22 +40,17 @@ class StoneNode: SKSpriteNode, EventListnerNode, InteractiveNode {
 			SKPhysicsBody(rectangleOf: node.frame.size, center: node.position)
 		})
 		
-		
-		
-		
-		
-		
+		compound.physicsBody = SKPhysicsBody(bodies: bodies)
+		compound.physicsBody!.collisionBitMask = PhysicsCategory.Edge | PhysicsCategory.Cat | PhysicsCategory.Block
+		compound.physicsBody!.categoryBitMask = PhysicsCategory.Block
+		compound.isUserInteractionEnabled = true
+		compound.zPosition = 1
 		return compound
 	}
 	
-	func didMoveToScene() {
-		
-		
+	override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+		super.touchesEnded(touches, with: event)
+		interact()
 	}
 	
-	func interact() {
-		
-		
-	}
-
 } // end of class
