@@ -101,6 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA29BE721E53545F004564EA /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				BA29BE6E1E527689004564EA /* StoneNode.swift */,
+				BA29BE681E4E6E6B004564EA /* SpringNode.swift */,
+				BA29BE6A1E4E76D0004564EA /* HookBaseNode.swift */,
+				BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */,
+				BAF35E401E4A80CA0087E64E /* MessageNode.swift */,
+				BAF35E211E49719F0087E64E /* BedNode.swift */,
+				BAF35E231E4974EB0087E64E /* CatNode.swift */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
 		BA5DA3721E3FE85A008BE328 = {
 			isa = PBXGroup;
 			children = (
@@ -123,23 +137,16 @@
 		BA5DA37D1E3FE85A008BE328 /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
+				BA5DA3961E413575008BE328 /* Sounds */,
 				BAF35E251E4A2A8C0087E64E /* SKTUtils */,
 				BA5DA3A11E41405D008BE328 /* Scenes */,
-				BA5DA3961E413575008BE328 /* Sounds */,
+				BA29BE721E53545F004564EA /* Nodes */,
 				BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */,
-				BA5DA3821E3FE85A008BE328 /* Actions.sks */,
-				BA5DA3841E3FE85A008BE328 /* GameScene.swift */,
-				BA29BE6E1E527689004564EA /* StoneNode.swift */,
-				BA29BE681E4E6E6B004564EA /* SpringNode.swift */,
-				BA29BE6A1E4E76D0004564EA /* HookBaseNode.swift */,
-				BAF35E401E4A80CA0087E64E /* MessageNode.swift */,
-				BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */,
-				BAF35E211E49719F0087E64E /* BedNode.swift */,
-				BAF35E231E4974EB0087E64E /* CatNode.swift */,
 				BA5DA3861E3FE85A008BE328 /* GameViewController.swift */,
-				BA5DA3881E3FE85A008BE328 /* Main.storyboard */,
+				BA5DA3841E3FE85A008BE328 /* GameScene.swift */,
 				BA5DA38B1E3FE85A008BE328 /* Assets.xcassets */,
 				BA5DA38D1E3FE85A008BE328 /* LaunchScreen.storyboard */,
+				BA5DA3881E3FE85A008BE328 /* Main.storyboard */,
 				BA5DA3901E3FE85A008BE328 /* Info.plist */,
 			);
 			path = CatNap;
@@ -164,6 +171,7 @@
 				BA29BE661E4E6BB7004564EA /* Level2.sks */,
 				BA29BE6C1E5260F1004564EA /* Level3.sks */,
 				BA29BE701E534FD9004564EA /* Level4.sks */,
+				BA5DA3821E3FE85A008BE328 /* Actions.sks */,
 				BA5DA3A21E4140C4008BE328 /* Cat.sks */,
 				BA5DA3A41E43D5A2008BE328 /* CatCurl.sks */,
 				BAF35E1F1E43D7A90087E64E /* CatWakeUp.sks */,
