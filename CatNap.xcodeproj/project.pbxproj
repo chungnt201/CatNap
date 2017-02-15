@@ -17,6 +17,7 @@
 		BA4703B51E53B366001E102A /* discolights-loop.mov in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B31E53B366001E102A /* discolights-loop.mov */; };
 		BA4703B71E53B37C001E102A /* Level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B61E53B37C001E102A /* Level5.sks */; };
 		BA4703B91E53B382001E102A /* Level6.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B81E53B382001E102A /* Level6.sks */; };
+		BA4703BB1E54BC73001E102A /* PictureNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4703BA1E54BC73001E102A /* PictureNode.swift */; };
 		BA5DA37F1E3FE85A008BE328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */; };
 		BA5DA3811E3FE85A008BE328 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3801E3FE85A008BE328 /* Level1.sks */; };
 		BA5DA3831E3FE85A008BE328 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3821E3FE85A008BE328 /* Actions.sks */; };
@@ -62,6 +63,7 @@
 		BA4703B31E53B366001E102A /* discolights-loop.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "discolights-loop.mov"; sourceTree = "<group>"; };
 		BA4703B61E53B37C001E102A /* Level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level5.sks; sourceTree = "<group>"; };
 		BA4703B81E53B382001E102A /* Level6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level6.sks; sourceTree = "<group>"; };
+		BA4703BA1E54BC73001E102A /* PictureNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureNode.swift; sourceTree = "<group>"; };
 		BA5DA37B1E3FE85A008BE328 /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5DA3801E3FE85A008BE328 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				BA29BE6E1E527689004564EA /* StoneNode.swift */,
+				BA4703BA1E54BC73001E102A /* PictureNode.swift */,
 				BA29BE681E4E6E6B004564EA /* SpringNode.swift */,
 				BA29BE6A1E4E76D0004564EA /* HookBaseNode.swift */,
 				BAF35E3E1E4A2FC60087E64E /* BlockNode.swift */,
@@ -311,6 +314,7 @@
 				BAF35E331E4A2A8C0087E64E /* CGPoint+Extensions.swift in Sources */,
 				BAF35E411E4A80CA0087E64E /* MessageNode.swift in Sources */,
 				BAF35E3B1E4A2A8C0087E64E /* SKTEffects.swift in Sources */,
+				BA4703BB1E54BC73001E102A /* PictureNode.swift in Sources */,
 				BAF35E361E4A2A8C0087E64E /* SKAction+Extensions.swift in Sources */,
 				BA5DA3851E3FE85A008BE328 /* GameScene.swift in Sources */,
 				BAF35E391E4A2A8C0087E64E /* SKNode+Extensions.swift in Sources */,
