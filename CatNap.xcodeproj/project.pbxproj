@@ -19,6 +19,7 @@
 		BA4703B91E53B382001E102A /* Level6.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B81E53B382001E102A /* Level6.sks */; };
 		BA4703BB1E54BC73001E102A /* PictureNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4703BA1E54BC73001E102A /* PictureNode.swift */; };
 		BA4703BD1E550798001E102A /* DiscoBallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4703BC1E550798001E102A /* DiscoBallNode.swift */; };
+		BA4703BF1E565C60001E102A /* HintNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4703BE1E565C60001E102A /* HintNode.swift */; };
 		BA5DA37F1E3FE85A008BE328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */; };
 		BA5DA3811E3FE85A008BE328 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3801E3FE85A008BE328 /* Level1.sks */; };
 		BA5DA3831E3FE85A008BE328 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3821E3FE85A008BE328 /* Actions.sks */; };
@@ -66,6 +67,7 @@
 		BA4703B81E53B382001E102A /* Level6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level6.sks; sourceTree = "<group>"; };
 		BA4703BA1E54BC73001E102A /* PictureNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureNode.swift; sourceTree = "<group>"; };
 		BA4703BC1E550798001E102A /* DiscoBallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoBallNode.swift; sourceTree = "<group>"; };
+		BA4703BE1E565C60001E102A /* HintNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintNode.swift; sourceTree = "<group>"; };
 		BA5DA37B1E3FE85A008BE328 /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5DA3801E3FE85A008BE328 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				BA29BE6E1E527689004564EA /* StoneNode.swift */,
+				BA4703BE1E565C60001E102A /* HintNode.swift */,
 				BA4703BC1E550798001E102A /* DiscoBallNode.swift */,
 				BA4703BA1E54BC73001E102A /* PictureNode.swift */,
 				BA29BE681E4E6E6B004564EA /* SpringNode.swift */,
@@ -328,6 +331,7 @@
 				BAF35E371E4A2A8C0087E64E /* SKAction+SpecialEffects.swift in Sources */,
 				BAF35E351E4A2A8C0087E64E /* Int+Extensions.swift in Sources */,
 				BAF35E3F1E4A2FC60087E64E /* BlockNode.swift in Sources */,
+				BA4703BF1E565C60001E102A /* HintNode.swift in Sources */,
 				BAF35E3D1E4A2A8C0087E64E /* Vector3.swift in Sources */,
 				BAF35E221E49719F0087E64E /* BedNode.swift in Sources */,
 				BAF35E381E4A2A8C0087E64E /* SKColor+Extensions.swift in Sources */,
