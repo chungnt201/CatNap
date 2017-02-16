@@ -13,6 +13,7 @@ class DiscoBallNode: SKSpriteNode, EventListnerNode, InteractiveNode{
 	
 	private var player: AVPlayer!
 	private var video: SKVideoNode!
+	static private(set) var isDiscoTime = false
 	private var isDiscoTime: Bool = false {
 		didSet {
 			video.isHidden = !isDiscoTime
@@ -33,6 +34,7 @@ class DiscoBallNode: SKSpriteNode, EventListnerNode, InteractiveNode{
 					self.isDiscoTime = false
 				})
 			}
+			DiscoBallNode.isDiscoTime = isDiscoTime
 		}
 	}
 	
