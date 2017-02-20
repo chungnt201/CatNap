@@ -19,7 +19,6 @@
 		BA4703B91E53B382001E102A /* Level6.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA4703B81E53B382001E102A /* Level6.sks */; };
 		BA4703BB1E54BC73001E102A /* PictureNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4703BA1E54BC73001E102A /* PictureNode.swift */; };
 		BA4703BD1E550798001E102A /* DiscoBallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4703BC1E550798001E102A /* DiscoBallNode.swift */; };
-		BA4703BF1E565C60001E102A /* HintNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4703BE1E565C60001E102A /* HintNode.swift */; };
 		BA5DA37F1E3FE85A008BE328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */; };
 		BA5DA3811E3FE85A008BE328 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3801E3FE85A008BE328 /* Level1.sks */; };
 		BA5DA3831E3FE85A008BE328 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3821E3FE85A008BE328 /* Actions.sks */; };
@@ -35,6 +34,7 @@
 		BA5DA3A01E413575008BE328 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA39B1E413575008BE328 /* win.mp3 */; };
 		BA5DA3A31E4140C4008BE328 /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3A21E4140C4008BE328 /* Cat.sks */; };
 		BA5DA3A51E43D5A2008BE328 /* CatCurl.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA5DA3A41E43D5A2008BE328 /* CatCurl.sks */; };
+		BA76AB981E5B3C1E005B9D4C /* HintNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76AB971E5B3C1E005B9D4C /* HintNode.swift */; };
 		BAF35E201E43D7A90087E64E /* CatWakeUp.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAF35E1F1E43D7A90087E64E /* CatWakeUp.sks */; };
 		BAF35E221E49719F0087E64E /* BedNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E211E49719F0087E64E /* BedNode.swift */; };
 		BAF35E241E4974EB0087E64E /* CatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF35E231E4974EB0087E64E /* CatNode.swift */; };
@@ -67,7 +67,6 @@
 		BA4703B81E53B382001E102A /* Level6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level6.sks; sourceTree = "<group>"; };
 		BA4703BA1E54BC73001E102A /* PictureNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureNode.swift; sourceTree = "<group>"; };
 		BA4703BC1E550798001E102A /* DiscoBallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoBallNode.swift; sourceTree = "<group>"; };
-		BA4703BE1E565C60001E102A /* HintNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintNode.swift; sourceTree = "<group>"; };
 		BA5DA37B1E3FE85A008BE328 /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5DA37E1E3FE85A008BE328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5DA3801E3FE85A008BE328 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
@@ -85,6 +84,7 @@
 		BA5DA39B1E413575008BE328 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		BA5DA3A21E4140C4008BE328 /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
 		BA5DA3A41E43D5A2008BE328 /* CatCurl.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatCurl.sks; sourceTree = "<group>"; };
+		BA76AB971E5B3C1E005B9D4C /* HintNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintNode.swift; sourceTree = "<group>"; };
 		BAF35E1F1E43D7A90087E64E /* CatWakeUp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatWakeUp.sks; sourceTree = "<group>"; };
 		BAF35E211E49719F0087E64E /* BedNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedNode.swift; sourceTree = "<group>"; };
 		BAF35E231E4974EB0087E64E /* CatNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatNode.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				BA29BE6E1E527689004564EA /* StoneNode.swift */,
-				BA4703BE1E565C60001E102A /* HintNode.swift */,
+				BA76AB971E5B3C1E005B9D4C /* HintNode.swift */,
 				BA4703BC1E550798001E102A /* DiscoBallNode.swift */,
 				BA4703BA1E54BC73001E102A /* PictureNode.swift */,
 				BA29BE681E4E6E6B004564EA /* SpringNode.swift */,
@@ -331,7 +331,7 @@
 				BAF35E371E4A2A8C0087E64E /* SKAction+SpecialEffects.swift in Sources */,
 				BAF35E351E4A2A8C0087E64E /* Int+Extensions.swift in Sources */,
 				BAF35E3F1E4A2FC60087E64E /* BlockNode.swift in Sources */,
-				BA4703BF1E565C60001E102A /* HintNode.swift in Sources */,
+				BA76AB981E5B3C1E005B9D4C /* HintNode.swift in Sources */,
 				BAF35E3D1E4A2A8C0087E64E /* Vector3.swift in Sources */,
 				BAF35E221E49719F0087E64E /* BedNode.swift in Sources */,
 				BAF35E381E4A2A8C0087E64E /* SKColor+Extensions.swift in Sources */,
@@ -468,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
 				INFOPLIST_FILE = CatNap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.patrickBellot.CatNap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
 				INFOPLIST_FILE = CatNap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.patrickBellot.CatNap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
